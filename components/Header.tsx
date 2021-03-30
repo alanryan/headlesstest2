@@ -19,7 +19,7 @@ function Header({
     { title: 'About', href: '/about' },
     { title: 'Posts', href: '/category/uncategorized' },
     {
-      title: 'Alan's GitHub',
+      title: 'Alans GitHub',
       href: 'https://github.com/alanryan/alantest/',
       class: 'button',
     },
