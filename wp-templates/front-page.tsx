@@ -30,7 +30,7 @@ export default function FrontPage(props: any): JSX.Element {
           buttonURL="https://developers.wpengine.com/"
           button2Text="GitHub boi"
           button2URL="https://github.com/wpengine/headless-framework"
-          bgImage="/images/headless_hero_background.jpg"
+          bgImage="/images/testingimage.png"
           id={styles.home_hero}>
           <p>
             Along with this example
