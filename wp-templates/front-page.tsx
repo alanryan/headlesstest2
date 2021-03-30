@@ -25,16 +25,16 @@ export default function FrontPage(props: any): JSX.Element {
       <Header title={settings?.title} description={settings?.description} />
       <main className="content">
         <Hero
-          title="Get Started with Headless"
-          buttonText="Developer Docs"
+          title="Woooo a Headless app"
+          buttonText="Get dem Docs here"
           buttonURL="https://developers.wpengine.com/"
-          button2Text="Headless on GitHub"
+          button2Text="GitHub boi"
           button2URL="https://github.com/wpengine/headless-framework"
           bgImage="/images/headless_hero_background.jpg"
           id={styles.home_hero}>
           <p>
-            WP&nbsp;Engine’s Headless WordPress Framework includes this example
-            project, the{' '}
+            Along with this example
+            project there is the{' '}
             <a href="https://github.com/wpengine/headless-framework#plugin-features">
               headless WordPress plugin
             </a>
@@ -43,7 +43,7 @@ export default function FrontPage(props: any): JSX.Element {
               headless package
             </a>
             , and <a href="https://developers.wpengine.com/">tutorials</a> to
-            make building headless WordPress sites fast and fun.
+            make building headless WordPress sites.
           </p>
         </Hero>
         <section className={styles.explore}>
