@@ -7,7 +7,7 @@
 }
 
 .site-title a {
-	color: $color-black;
+	color: $color-red;
 	font-family: $font-family;
 	font-weight: $font-weight-bold;
 	font-size: 1.2em;
@@ -25,7 +25,7 @@
 }
 
 .title-wrap .description {
-	color: $color-mid-gray;
+	color: $color-red;
 	font-family: $font-family;
 	font-size: 0.8em;
 	margin-top: 0.1em;
@@ -100,5 +100,5 @@
 .menu a:global(.button):focus,
 .menu a:global(.button):hover {
 	background-color: lighten($color-primary, 10);
-	color: $color-white;
+	color: $color-blue;
 }
